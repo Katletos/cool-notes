@@ -1,8 +1,12 @@
 <?php
+
+namespace Core;
+
+use PDO;
 class Database
 {
     public PDO $connection;
-    public PDOStatement | bool $statement;
+    public $statement;
     public function __construct($config, $username = 'root', $password = 'root')
     {
         $dsn = 'mysql:' . http_build_query($config,'', ';');
