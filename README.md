@@ -5,6 +5,7 @@ It is notes web app
 - registration and authorization
 - sessions
 - database
+- MVC
 ## How to launch
 Setup `mysql/mariadb` and edit `Core/Database.php`, `config.php` before launch. 
 ```sql
